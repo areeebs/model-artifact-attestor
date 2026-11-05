@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "model_artifact_attestor"
+version = "0.1.0"
+description = "Verify local model artifact digests and provenance manifests before controlled ingestion."
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Ahmed Areeb"}]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Topic :: Security",
+  "Programming Language :: Python :: 3",
+]
+
+[project.scripts]
+model-attest = "tool:main"
+
+[tool.setuptools]
+py-modules = ["tool"]

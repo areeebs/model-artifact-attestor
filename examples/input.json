@@ -1,0 +1,7 @@
+{
+  "artifacts": [
+    {"path": "model.safetensors", "sha256": "REPLACE_WITH_64_HEX_DIGEST",
+     "source": "internal-build-42", "license": "Apache-2.0", "format": "safetensors",
+     "scan_status": "passed"}
+  ]
+}
